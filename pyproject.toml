@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vim-lab"
+version = "1.0.0"
+description = "A quiet, interactive Vim tutorial in your terminal."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+vimlab = "vim_lab.cli:main"
+
+[tool.setuptools.package-data]
+vim_lab = ["*.vim"]

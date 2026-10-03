@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+"""Run Vim Lab directly from this folder; no installation needed."""
+from vim_lab.cli import main
+
+raise SystemExit(main())
