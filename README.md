@@ -1,4 +1,4 @@
-# Vim Tutor
+# Vim Lab
 
 A clean tutorial in your terminal. Twenty-four small lessons, an editable practice
 buffer, optional hints, and a place to try things freely. Every exercise runs in
